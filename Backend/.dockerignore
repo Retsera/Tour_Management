@@ -1,0 +1,32 @@
+# Maven/Gradle build artifacts
+target/
+build/
+.gradle/
+.idea/
+.vscode/
+
+# IDE files
+*.iml
+.project
+.classpath
+.settings/
+
+# Git ignore files
+.git/
+.gitignore
+
+# Logs and temporary files
+logs/
+tmp/
+*.log
+
+# Docker specific files
+Dockerfile
+.dockerignore
+
+# Other common exclusions
+**/.env
+**/.env.*
+/src/main/resources/application-*.yml
+/src/main/resources/application-*.properties
+dist/
